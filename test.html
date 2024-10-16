@@ -29,6 +29,11 @@
 
             mounted(){
                 alert('hello');
+
+                //input name change 3 sec
+                setTimeout(() => {
+                    this.greeting = 'saviiiiii';
+                }, 3000);
             }
         }).mount('#app');
     </script>
